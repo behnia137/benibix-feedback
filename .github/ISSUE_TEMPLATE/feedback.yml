@@ -1,0 +1,69 @@
+# Written by scripts/gen.mjs from the site's live tools: edit there, not here.
+name: Feedback
+description: Send feedback, report a bug or suggest an idea for a BENIBIX tool or the site.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve **BENIBIX**. Pick the tool, then tell me what happened or what you would like. Only the details are required besides the tool.
+
+  - type: dropdown
+    id: tool
+    attributes:
+      label: Which tool is it about?
+      options:
+        - "Character Prompt Builder"
+        - "Chart Compass"
+        - "Config Studio for Claude Code"
+        - "Config Studio for Codex"
+        - "Icon Studio"
+        - "KPI Atlas"
+        - "Motion Studio"
+        - "Profile README Studio"
+        - "Prompt Gallery"
+        - "Report Design Studio"
+        - "Statusline Studio"
+        - "Usage Insights for Claude Code"
+        - "Usage Insights for Codex"
+        - "The site itself"
+        - "A new tool"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: What kind of message is this?
+      options:
+        - "💬 Feedback (what you think)"
+        - "🐞 Bug (something is broken or looks wrong)"
+        - "💡 Idea (a feature or improvement)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: >-
+        For a bug, what you did, what you expected and what happened instead.
+        For an idea, what you are trying to do.
+      placeholder: Tell me what happened, or what you would like to see.
+    validations:
+      required: true
+
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: The page you were on (filled in for you).
+    validations:
+      required: false
+
+  - type: input
+    id: contact
+    attributes:
+      label: How can I reach you? (optional)
+      description: Email or handle, only if you want a reply outside this issue.
+    validations:
+      required: false

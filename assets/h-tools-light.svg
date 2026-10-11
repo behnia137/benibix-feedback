@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="96" viewBox="0 0 1200 96" fill="none">
+<style>text{font-family:Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif} .serif{font-family:'Instrument Serif', Georgia, 'Times New Roman', serif;font-style:italic}  @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<defs><linearGradient id="rb" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0.0%" stop-color="#d9431c"/><stop offset="20.0%" stop-color="#b86e00"/><stop offset="40.0%" stop-color="#3b8a17"/><stop offset="60.0%" stop-color="#1f5fd6"/><stop offset="80.0%" stop-color="#8a3fe0"/><stop offset="100.0%" stop-color="#d9431c"/></linearGradient></defs>
+  <rect x="0" y="22" width="34" height="3" rx="1.5" fill="url(#rb)"/>
+  <text x="46" y="28" font-size="14" font-weight="700" letter-spacing="2" fill="#666671">PICK A TOOL</text>
+  <text x="0" y="76" font-size="38" font-weight="800" letter-spacing="-1.2" fill="#0b0b10">One form,<tspan class="serif" font-weight="400" fill="url(#rb)"> your tool already picked.</tspan></text>
+</svg>

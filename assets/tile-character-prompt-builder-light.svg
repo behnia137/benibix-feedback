@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="148" viewBox="0 0 400 148" fill="none">
+<style>text{font-family:Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif} .serif{font-family:'Instrument Serif', Georgia, 'Times New Roman', serif;font-style:italic} .ring{opacity:0;animation:ring 9.6s 3.0s ease-in-out infinite} @keyframes ring{0%,100%{opacity:0} 4%{opacity:1} 10%{opacity:1} 15%{opacity:0}}
+    .tile{animation:lift 9.6s 3.0s ease-in-out infinite} @keyframes lift{0%,100%{transform:none} 4%{transform:translateY(-3px)} 10%{transform:translateY(-3px)} 15%{transform:none}} @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<defs><radialGradient id="gl" cx="1" cy="0" r="1.1"><stop offset="0" stop-color="#ff5fa8" stop-opacity=".11"/><stop offset="1" stop-color="#ff5fa8" stop-opacity="0"/></radialGradient></defs>
+  <g class="tile" style="transform-origin:200px 74px">
+    <rect x="8" y="8" width="384" height="132" rx="16" fill="#ffffff"/>
+    <rect x="8" y="8" width="384" height="132" rx="16" fill="url(#gl)"/>
+    <rect x="8.75" y="8.75" width="382.5" height="130.5" rx="15.5" stroke="rgba(16,18,27,.10)" stroke-width="1.5"/>
+    <rect x="9" y="9" width="382" height="130" rx="15" stroke="#ff5fa8" stroke-width="2.5" class="ring"/>
+    <rect x="28" y="30" width="52" height="52" rx="15" fill="#ff5fa8" fill-opacity=".15" stroke="#ff5fa8" stroke-opacity=".5"/>
+    <g transform="translate(40 42) scale(1.1666666666666667)" stroke="#943761" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 1 0 20 10 10 0 0 1 0-20zM8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></g>
+    <text x="96" y="54" font-size="20" font-weight="800" letter-spacing="-.4" fill="#0b0b10">Character Prompt Builder</text>
+    <text x="96" y="78" font-size="14.5" fill="#666671">Feedback, a bug or an idea</text>
+    <rect x="28" y="102" width="344" height="1" fill="rgba(16,18,27,.10)"/>
+    <text x="28" y="127" font-size="13" font-weight="700" letter-spacing="1.2" fill="#943761">PROMPTS</text>
+    <text x="372" y="127" text-anchor="end" font-size="15" font-weight="800" fill="#943761">Send feedback <tspan class="chev">›</tspan></text>
+  </g>
+</svg>

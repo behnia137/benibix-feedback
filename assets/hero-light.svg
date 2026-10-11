@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" fill="none">
+<style>text{font-family:Inter, 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif} .serif{font-family:'Instrument Serif', Georgia, 'Times New Roman', serif;font-style:italic} .bar{animation:bars 3.6s cubic-bezier(.4,0,.2,1) infinite} .b1{animation-delay:.25s} .b2{animation-delay:.5s} @keyframes bars{50%{transform:scaleY(.6)}}
+    .msg{animation:msg 9.0s ease-in-out infinite both} @keyframes msg{0%{opacity:.25;transform:translateX(0)} 6%{opacity:1;transform:translateX(-10px)} 16%{opacity:1;transform:translateX(-10px)} 24%,100%{opacity:.55;transform:translateX(0)}}
+    .drift{animation:drift 18s ease-in-out infinite alternate} .d2{animation-duration:24s} @keyframes drift{to{transform:translate(-60px,30px)}} @media (prefers-reduced-motion: reduce) { * { animation: none !important; } }</style>
+<defs><linearGradient id="rb" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0.0%" stop-color="#d9431c"/><stop offset="20.0%" stop-color="#b86e00"/><stop offset="40.0%" stop-color="#3b8a17"/><stop offset="60.0%" stop-color="#1f5fd6"/><stop offset="80.0%" stop-color="#8a3fe0"/><stop offset="100.0%" stop-color="#d9431c"/></linearGradient>
+    <radialGradient id="g1"><stop offset="0" stop-color="#1f5fd6" stop-opacity=".12"/><stop offset="1" stop-color="#1f5fd6" stop-opacity="0"/></radialGradient>
+    <radialGradient id="g2"><stop offset="0" stop-color="#d9431c" stop-opacity=".10"/><stop offset="1" stop-color="#d9431c" stop-opacity="0"/></radialGradient>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#0b0b10" fill-opacity=".09"/></pattern>
+    <clipPath id="frame"><rect width="1200" height="380" rx="24"/></clipPath></defs>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="380" fill="#f7f6f3"/><rect width="1200" height="380" fill="url(#dots)"/>
+    <ellipse class="drift" cx="930" cy="160" rx="380" ry="260" fill="url(#g1)"/>
+    <ellipse class="drift d2" cx="160" cy="400" rx="380" ry="200" fill="url(#g2)"/>
+    <g class="msg" style="animation-delay:0.0s">
+      <rect x="690" y="58" width="454" height="80" rx="18" fill="#ffffff" stroke="rgba(16,18,27,.10)" stroke-width="1.5"/>
+      <rect x="690" y="58" width="454" height="80" rx="18" fill="#2f7cf6" fill-opacity=".06"/>
+      <rect x="708" y="74" width="48" height="48" rx="14" fill="#2f7cf6" fill-opacity=".16" stroke="#2f7cf6" stroke-opacity=".5"/>
+      <g transform="translate(720 86) scale(1)" stroke="#1b488f" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L3 21l1.9-6.4A8 8 0 1 1 21 12z"/></g>
+      <text x="772" y="94" font-size="19" font-weight="800" fill="#0b0b10">Feedback</text>
+      <text x="772" y="118" font-size="15.5" fill="#474753">What you think: what works, what is confusing.</text>
+    </g>
+<g class="msg" style="animation-delay:2.2s">
+      <rect x="690" y="156" width="454" height="80" rx="18" fill="#ffffff" stroke="rgba(16,18,27,.10)" stroke-width="1.5"/>
+      <rect x="690" y="156" width="454" height="80" rx="18" fill="#ff6b3d" fill-opacity=".06"/>
+      <rect x="708" y="172" width="48" height="48" rx="14" fill="#ff6b3d" fill-opacity=".16" stroke="#ff6b3d" stroke-opacity=".5"/>
+      <g transform="translate(720 184) scale(1)" stroke="#943e23" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="8" width="10" height="12" rx="5"/><path d="M9.5 8a2.5 2.5 0 0 1 5 0M12 12v8M3 13h4M17 13h4M4 7l3 2M20 7l-3 2M4 19l3-2M20 19l-3-2"/></g>
+      <text x="772" y="192" font-size="19" font-weight="800" fill="#0b0b10">Bug</text>
+      <text x="772" y="216" font-size="15.5" fill="#474753">Something is broken or looks wrong.</text>
+    </g>
+<g class="msg" style="animation-delay:4.4s">
+      <rect x="690" y="254" width="454" height="80" rx="18" fill="#ffffff" stroke="rgba(16,18,27,.10)" stroke-width="1.5"/>
+      <rect x="690" y="254" width="454" height="80" rx="18" fill="#ffc72c" fill-opacity=".06"/>
+      <rect x="708" y="270" width="48" height="48" rx="14" fill="#ffc72c" fill-opacity=".16" stroke="#ffc72c" stroke-opacity=".5"/>
+      <g transform="translate(720 282) scale(1)" stroke="#94731a" stroke-width="1.9" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z"/></g>
+      <text x="772" y="290" font-size="19" font-weight="800" fill="#0b0b10">Idea</text>
+      <text x="772" y="314" font-size="15.5" fill="#474753">A feature, an improvement, a whole new tool.</text>
+    </g>
+    <rect x="0" y="377" width="1200" height="3" fill="url(#rb)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="379" rx="23.5" stroke="rgba(16,18,27,.10)"/>
+  <defs><linearGradient id="mk" x1="0" y1="0" x2="0" y2="90" gradientUnits="userSpaceOnUse" spreadMethod="repeat"><stop offset="0.000" stop-color="#d9431c"/><stop offset="0.200" stop-color="#b86e00"/><stop offset="0.400" stop-color="#3b8a17"/><stop offset="0.600" stop-color="#1f5fd6"/><stop offset="0.800" stop-color="#8a3fe0"/><stop offset="1.000" stop-color="#d9431c"/>
+    <animateTransform attributeName="gradientTransform" type="translate" from="0 0" to="0 -90" dur="8s" repeatCount="indefinite"/></linearGradient></defs>
+  <rect class="bar b0" x="64" y="58" width="7.5" height="30" rx="2.142857142857143" fill="url(#mk)" style="transform-origin:67.75px 88px"/><rect class="bar b1" x="75.25" y="68.2" width="7.5" height="19.8" rx="2.142857142857143" fill="url(#mk)" style="transform-origin:79px 88px"/><rect class="bar b2" x="86.5" y="62.5" width="7.5" height="25.5" rx="2.142857142857143" fill="url(#mk)" style="transform-origin:90.25px 88px"/>
+  <text x="112" y="84" font-size="20" font-weight="800" letter-spacing="-.4" fill="#0b0b10">BENIBIX</text>
+  <text x="208" y="83" font-size="15" fill="#666671">feedback</text>
+  <text x="62" y="176" font-size="64" font-weight="800" letter-spacing="-2.2" fill="#0b0b10">Tell me</text>
+  <text x="64" y="236" font-size="52" class="serif" fill="url(#rb)">what to build next.</text>
+  <text x="64" y="290" font-size="19" fill="#474753">Feedback, bugs and ideas for 13 free tools.</text>
+  <text x="64" y="318" font-size="19" fill="#474753">Public issues, read by the person who builds them.</text>
+</svg>
